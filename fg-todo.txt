@@ -1,0 +1,10 @@
+listview-based queries (lv backed Results?)
+move tracking is wrong
+testing
+  make the fuzzer single-threaded
+  write lots of tests
+  fuzz things
+rest of the examples
+better api
+perf testing + optim
+docs
