@@ -5,6 +5,5 @@ testing
   write lots of tests
   fuzz things
 rest of the examples
-better api
 perf testing + optim
 docs
