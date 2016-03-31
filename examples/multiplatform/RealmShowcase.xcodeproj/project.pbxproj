@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		287D1409FF51A3C7B128FE89 /* Pods_RealmShowcase_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0917930BD9AE69C4783F550 /* Pods_RealmShowcase_iOS.framework */; };
+		45C0EDB8E5969CEB95D83805 /* Pods_RealmShowcase_watchOS_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08A4F352E079335209E6717A /* Pods_RealmShowcase_watchOS_Extension.framework */; };
+		7D9594B36E64AB550B6BF900 /* Pods_RealmShowcase_OSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E84CC994186B6E3AC1DCF99 /* Pods_RealmShowcase_OSX.framework */; };
+		88D23EFE17ED6EE35DAB6D4B /* Pods_RealmShowcase_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2C5CD5D5ACB40F15D4D1D1B /* Pods_RealmShowcase_tvOS.framework */; };
 		9C1347111CAD371600B4499C /* ImageWithURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBF17A41CAD322A0045A16B /* ImageWithURL.swift */; };
 		9C1347121CAD381100B4499C /* ImageWithURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBF17A41CAD322A0045A16B /* ImageWithURL.swift */; };
 		9C2255271C91F21E00D8E974 /* RepoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2255261C91F21E00D8E974 /* RepoDetailViewController.swift */; };
@@ -15,23 +19,15 @@
 		9C3D8FC01C92E3A3000DA57A /* Favorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD371AD1C91DD1500C0731B /* Favorite.swift */; };
 		9C3D8FC21C92F895000DA57A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3D8FC11C92F895000DA57A /* DetailViewController.swift */; };
 		9C61FB1B1C932ADD00AC65D7 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CEA35F91C93203300936192 /* Interface.storyboard */; };
+		9C61FB1C1C932AE300AC65D7 /* MasterInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CEA361D1C9322F800936192 /* MasterInterfaceController.swift */; };
 		9C814A0C1C92DDB00020E4FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C814A0B1C92DDB00020E4FA /* AppDelegate.swift */; };
 		9C814A0E1C92DDB00020E4FA /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C814A0D1C92DDB00020E4FA /* MasterViewController.swift */; };
 		9C814A111C92DDB00020E4FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C814A0F1C92DDB00020E4FA /* Main.storyboard */; };
 		9C814A131C92DDB00020E4FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C814A121C92DDB00020E4FA /* Assets.xcassets */; };
 		9C814A191C92E0B60020E4FA /* RepoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C814A181C92E0B60020E4FA /* RepoCollectionViewCell.swift */; };
-		9C8C124B1CAD47AA00F793B5 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C8C124A1CAD47AA00F793B5 /* Realm.framework */; };
-		9C8C124D1CAD47AF00F793B5 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C8C124C1CAD47AF00F793B5 /* RealmSwift.framework */; };
-		9C8C125E1CAD4ABA00F793B5 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C8C125C1CAD4ABA00F793B5 /* Realm.framework */; };
-		9C8C125F1CAD4ABA00F793B5 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C8C125D1CAD4ABA00F793B5 /* RealmSwift.framework */; };
-		9C8C12621CAD4B0700F793B5 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C8C12601CAD4B0700F793B5 /* Realm.framework */; };
-		9C8C12631CAD4B0700F793B5 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C8C12611CAD4B0700F793B5 /* RealmSwift.framework */; };
-		9C8C12641CAD4C1E00F793B5 /* GitHubAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD371B21C91DD1D00C0731B /* GitHubAPI.swift */; };
-		9C8C12651CAD4C1E00F793B5 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD371AC1C91DD1500C0731B /* Repository.swift */; };
-		9C8C12661CAD4C1E00F793B5 /* Favorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD371AD1C91DD1500C0731B /* Favorite.swift */; };
-		9C8C12671CAD4C1E00F793B5 /* ImageWithURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBF17A41CAD322A0045A16B /* ImageWithURL.swift */; };
-		9C8C126B1CAD4CD600F793B5 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C8C124A1CAD47AA00F793B5 /* Realm.framework */; };
-		9C8C126C1CAD4CD600F793B5 /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9C8C124A1CAD47AA00F793B5 /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9C8766101CAD3A2600A997E0 /* ImageWithURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBF17A41CAD322A0045A16B /* ImageWithURL.swift */; };
+		9C9A15161C96D9C8003DEDAA /* RepoRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9A15151C96D9C8003DEDAA /* RepoRowController.swift */; };
+		9C9A15181C96DEE9003DEDAA /* DetailInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9A15171C96DEE9003DEDAA /* DetailInterfaceController.swift */; };
 		9CBF17A51CAD322A0045A16B /* ImageWithURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBF17A41CAD322A0045A16B /* ImageWithURL.swift */; };
 		9CD371841C91DB8800C0731B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD371831C91DB8800C0731B /* AppDelegate.swift */; };
 		9CD371861C91DB8800C0731B /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD371851C91DB8800C0731B /* MasterViewController.swift */; };
@@ -43,6 +39,7 @@
 		9CD371A01C91DB9A00C0731B /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD3719F1C91DB9A00C0731B /* MasterViewController.swift */; };
 		9CD371A21C91DB9A00C0731B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CD371A11C91DB9A00C0731B /* Assets.xcassets */; };
 		9CD371A51C91DB9A00C0731B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CD371A31C91DB9A00C0731B /* Main.storyboard */; };
+		9CD371AB1C91DBAF00C0731B /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 9CD371AA1C91DBAF00C0731B /* Podfile */; };
 		9CD371AE1C91DD1500C0731B /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD371AC1C91DD1500C0731B /* Repository.swift */; };
 		9CD371AF1C91DD1500C0731B /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD371AC1C91DD1500C0731B /* Repository.swift */; };
 		9CD371B01C91DD1500C0731B /* Favorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD371AD1C91DD1500C0731B /* Favorite.swift */; };
@@ -56,6 +53,9 @@
 		9CEA360B1C93203400936192 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CEA360A1C93203400936192 /* ExtensionDelegate.swift */; };
 		9CEA360D1C93203400936192 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CEA360C1C93203400936192 /* Assets.xcassets */; };
 		9CEA36111C93203400936192 /* RealmShowcase-watchOS.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 9CEA35F71C93203300936192 /* RealmShowcase-watchOS.app */; };
+		9CEA361A1C9320B700936192 /* GitHubAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD371B21C91DD1D00C0731B /* GitHubAPI.swift */; };
+		9CEA361B1C9320B700936192 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD371AC1C91DD1500C0731B /* Repository.swift */; };
+		9CEA361C1C9320B700936192 /* Favorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD371AD1C91DD1500C0731B /* Favorite.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,17 +76,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		9C8C126D1CAD4CD600F793B5 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				9C8C126C1CAD4CD600F793B5 /* Realm.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		9CEA36171C93203400936192 /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -113,8 +102,13 @@
 
 /* Begin PBXFileReference section */
 		08A4F352E079335209E6717A /* Pods_RealmShowcase_watchOS_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RealmShowcase_watchOS_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2747A100FFD53948B9087447 /* Pods-RealmShowcase-OSX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmShowcase-OSX.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RealmShowcase-OSX/Pods-RealmShowcase-OSX.debug.xcconfig"; sourceTree = "<group>"; };
 		3E84CC994186B6E3AC1DCF99 /* Pods_RealmShowcase_OSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RealmShowcase_OSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		62F4572EB937407F4CEA38BF /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C766AC640FD8921ADDB47D9 /* Pods-RealmShowcase-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmShowcase-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-RealmShowcase-iOS/Pods-RealmShowcase-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		7332558E99983C55E03776D7 /* Pods-RealmShowcase-watchOS Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmShowcase-watchOS Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-RealmShowcase-watchOS Extension/Pods-RealmShowcase-watchOS Extension.release.xcconfig"; sourceTree = "<group>"; };
+		93A507C8ACCC990223C4E25F /* Pods-RealmShowcase-watchOS Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmShowcase-watchOS Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RealmShowcase-watchOS Extension/Pods-RealmShowcase-watchOS Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		9A34526B8071836E4221AA20 /* Pods-RealmShowcase-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmShowcase-tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-RealmShowcase-tvOS/Pods-RealmShowcase-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		9C2255261C91F21E00D8E974 /* RepoDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepoDetailViewController.swift; sourceTree = "<group>"; };
 		9C3D8FC11C92F895000DA57A /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		9C814A091C92DDB00020E4FA /* RealmShowcase-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RealmShowcase-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -124,17 +118,6 @@
 		9C814A121C92DDB00020E4FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C814A141C92DDB00020E4FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C814A181C92E0B60020E4FA /* RepoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepoCollectionViewCell.swift; sourceTree = "<group>"; };
-		9C8C123F1CAD46FC00F793B5 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = ../../build/Debug/Realm.framework; sourceTree = "<group>"; };
-		9C8C12401CAD46FC00F793B5 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = ../../build/Debug/RealmSwift.framework; sourceTree = "<group>"; };
-		9C8C124A1CAD47AA00F793B5 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = "../../../../../../Library/Developer/Xcode/DerivedData/MultiplatformShowcase-bwlraxsnfktazxevxevevkgvcsfv/Build/Products/Debug-iphonesimulator/Realm.framework"; sourceTree = "<group>"; };
-		9C8C124C1CAD47AF00F793B5 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = "../../../../../../Library/Developer/Xcode/DerivedData/MultiplatformShowcase-bwlraxsnfktazxevxevevkgvcsfv/Build/Products/Debug-iphonesimulator/RealmSwift.framework"; sourceTree = "<group>"; };
-		9C8C12531CAD4A3D00F793B5 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = ../../build/Debug/Realm.framework; sourceTree = "<group>"; };
-		9C8C12541CAD4A3D00F793B5 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = ../../build/Debug/RealmSwift.framework; sourceTree = "<group>"; };
-		9C8C125C1CAD4ABA00F793B5 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = ../../build/Debug/Realm.framework; sourceTree = "<group>"; };
-		9C8C125D1CAD4ABA00F793B5 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = ../../build/Debug/RealmSwift.framework; sourceTree = "<group>"; };
-		9C8C12601CAD4B0700F793B5 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = ../../build/Debug/Realm.framework; sourceTree = "<group>"; };
-		9C8C12611CAD4B0700F793B5 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = ../../build/Debug/RealmSwift.framework; sourceTree = "<group>"; };
-		9C8C12691CAD4C7200F793B5 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = ../../build/Debug/RealmSwift.framework; sourceTree = "<group>"; };
 		9C9A14F61C96CF7A003DEDAA /* RealmShowcase-iOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "RealmShowcase-iOS.entitlements"; sourceTree = "<group>"; };
 		9C9A15151C96D9C8003DEDAA /* RepoRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepoRowController.swift; sourceTree = "<group>"; };
 		9C9A15171C96DEE9003DEDAA /* DetailInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailInterfaceController.swift; sourceTree = "<group>"; };
@@ -153,6 +136,7 @@
 		9CD371A11C91DB9A00C0731B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9CD371A41C91DB9A00C0731B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9CD371A61C91DB9A00C0731B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CD371AA1C91DBAF00C0731B /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9CD371AC1C91DD1500C0731B /* Repository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
 		9CD371AD1C91DD1500C0731B /* Favorite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Favorite.swift; sourceTree = "<group>"; };
 		9CD371B21C91DD1D00C0731B /* GitHubAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitHubAPI.swift; sourceTree = "<group>"; };
@@ -169,6 +153,9 @@
 		9CEA361D1C9322F800936192 /* MasterInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterInterfaceController.swift; sourceTree = "<group>"; };
 		A2C5CD5D5ACB40F15D4D1D1B /* Pods_RealmShowcase_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RealmShowcase_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0917930BD9AE69C4783F550 /* Pods_RealmShowcase_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RealmShowcase_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8A1D46BF616C0907C09CD83 /* Pods-RealmShowcase-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmShowcase-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RealmShowcase-iOS/Pods-RealmShowcase-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		DF70190A78DE0BFB69CA2E6D /* Pods-RealmShowcase-OSX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmShowcase-OSX.release.xcconfig"; path = "Pods/Target Support Files/Pods-RealmShowcase-OSX/Pods-RealmShowcase-OSX.release.xcconfig"; sourceTree = "<group>"; };
+		F05A1C4F8EAE5E49C702E0A4 /* Pods-RealmShowcase-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmShowcase-tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RealmShowcase-tvOS/Pods-RealmShowcase-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,8 +163,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C8C12621CAD4B0700F793B5 /* Realm.framework in Frameworks */,
-				9C8C12631CAD4B0700F793B5 /* RealmSwift.framework in Frameworks */,
+				88D23EFE17ED6EE35DAB6D4B /* Pods_RealmShowcase_tvOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,8 +171,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C8C124D1CAD47AF00F793B5 /* RealmSwift.framework in Frameworks */,
-				9C8C124B1CAD47AA00F793B5 /* Realm.framework in Frameworks */,
+				287D1409FF51A3C7B128FE89 /* Pods_RealmShowcase_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,8 +179,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C8C125E1CAD4ABA00F793B5 /* Realm.framework in Frameworks */,
-				9C8C125F1CAD4ABA00F793B5 /* RealmSwift.framework in Frameworks */,
+				7D9594B36E64AB550B6BF900 /* Pods_RealmShowcase_OSX.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,7 +187,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C8C126B1CAD4CD600F793B5 /* Realm.framework in Frameworks */,
+				45C0EDB8E5969CEB95D83805 /* Pods_RealmShowcase_watchOS_Extension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,20 +201,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2145EB7EF90BDC6C753DBCD9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2747A100FFD53948B9087447 /* Pods-RealmShowcase-OSX.debug.xcconfig */,
+				DF70190A78DE0BFB69CA2E6D /* Pods-RealmShowcase-OSX.release.xcconfig */,
+				B8A1D46BF616C0907C09CD83 /* Pods-RealmShowcase-iOS.debug.xcconfig */,
+				6C766AC640FD8921ADDB47D9 /* Pods-RealmShowcase-iOS.release.xcconfig */,
+				F05A1C4F8EAE5E49C702E0A4 /* Pods-RealmShowcase-tvOS.debug.xcconfig */,
+				9A34526B8071836E4221AA20 /* Pods-RealmShowcase-tvOS.release.xcconfig */,
+				93A507C8ACCC990223C4E25F /* Pods-RealmShowcase-watchOS Extension.debug.xcconfig */,
+				7332558E99983C55E03776D7 /* Pods-RealmShowcase-watchOS Extension.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		312386174CA6B7BF46FB9545 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9C8C12691CAD4C7200F793B5 /* RealmSwift.framework */,
-				9C8C12601CAD4B0700F793B5 /* Realm.framework */,
-				9C8C12611CAD4B0700F793B5 /* RealmSwift.framework */,
-				9C8C125C1CAD4ABA00F793B5 /* Realm.framework */,
-				9C8C125D1CAD4ABA00F793B5 /* RealmSwift.framework */,
-				9C8C12531CAD4A3D00F793B5 /* Realm.framework */,
-				9C8C12541CAD4A3D00F793B5 /* RealmSwift.framework */,
-				9C8C124C1CAD47AF00F793B5 /* RealmSwift.framework */,
-				9C8C124A1CAD47AA00F793B5 /* Realm.framework */,
-				9C8C123F1CAD46FC00F793B5 /* Realm.framework */,
-				9C8C12401CAD46FC00F793B5 /* RealmSwift.framework */,
 				62F4572EB937407F4CEA38BF /* Pods.framework */,
 				3E84CC994186B6E3AC1DCF99 /* Pods_RealmShowcase_OSX.framework */,
 				B0917930BD9AE69C4783F550 /* Pods_RealmShowcase_iOS.framework */,
@@ -314,6 +302,8 @@
 				9C814A0A1C92DDB00020E4FA /* RealmShowcase-tvOS */,
 				9CEA35F81C93203300936192 /* RealmShowcase-watchOS 2 */,
 				9C814A021C92D7490020E4FA /* Shared */,
+				9CD371AA1C91DBAF00C0731B /* Podfile */,
+				2145EB7EF90BDC6C753DBCD9 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -384,9 +374,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9C814A151C92DDB00020E4FA /* Build configuration list for PBXNativeTarget "RealmShowcase-tvOS" */;
 			buildPhases = (
+				D27B0D7F65BEB918378CB3D7 /* 📦 Check Pods Manifest.lock */,
 				9C814A051C92DDB00020E4FA /* Sources */,
 				9C814A061C92DDB00020E4FA /* Frameworks */,
 				9C814A071C92DDB00020E4FA /* Resources */,
+				7DD00CB8713A8D9B8177BA7E /* 📦 Embed Pods Frameworks */,
+				04B8D268B7C1D016CA50B8F4 /* 📦 Copy Pods Resources */,
+				D20C594E77ED5ECF9C5B0EDE /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -401,10 +395,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9CD371941C91DB8800C0731B /* Build configuration list for PBXNativeTarget "RealmShowcase-iOS" */;
 			buildPhases = (
+				DF4EDF0ADE36BA6603CD2495 /* 📦 Check Pods Manifest.lock */,
 				9CD3717C1C91DB8800C0731B /* Sources */,
 				9CD3717D1C91DB8800C0731B /* Frameworks */,
 				9CD3717E1C91DB8800C0731B /* Resources */,
 				9CEA36191C93203400936192 /* Embed Watch Content */,
+				FD5B10FCAD3887E89BF9F7A1 /* 📦 Embed Pods Frameworks */,
+				E92E56CC87C55D5CEEC88C4C /* 📦 Copy Pods Resources */,
+				0B28EEE969BD759B8842346A /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -420,9 +418,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9CD371A71C91DB9A00C0731B /* Build configuration list for PBXNativeTarget "RealmShowcase-OSX" */;
 			buildPhases = (
+				6B7D3E1A7F655EF2EED254B3 /* 📦 Check Pods Manifest.lock */,
 				9CD371971C91DB9A00C0731B /* Sources */,
 				9CD371981C91DB9A00C0731B /* Frameworks */,
 				9CD371991C91DB9A00C0731B /* Resources */,
+				C2C7CB95198FF5EEF2099B01 /* 📦 Embed Pods Frameworks */,
+				EB3814112BCB51D589830772 /* 📦 Copy Pods Resources */,
+				7F24F3D165C8C88A7158FC56 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -455,10 +457,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9CEA36161C93203400936192 /* Build configuration list for PBXNativeTarget "RealmShowcase-watchOS Extension" */;
 			buildPhases = (
+				495BE5E3F3748772E585B8BD /* 📦 Check Pods Manifest.lock */,
 				9CEA35FF1C93203300936192 /* Sources */,
 				9CEA36001C93203300936192 /* Frameworks */,
 				9CEA36011C93203300936192 /* Resources */,
-				9C8C126D1CAD4CD600F793B5 /* Embed Frameworks */,
+				6251D7FA40568D952B8CFAA6 /* 📦 Embed Pods Frameworks */,
+				2D0CB97FF3B50D3B1F51BA60 /* 📦 Copy Pods Resources */,
+				B491051B6A29FC929586E48D /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -546,6 +551,7 @@
 			files = (
 				9CD371901C91DB8800C0731B /* LaunchScreen.storyboard in Resources */,
 				9CD3718D1C91DB8800C0731B /* Assets.xcassets in Resources */,
+				9CD371AB1C91DBAF00C0731B /* Podfile in Resources */,
 				9CD3718B1C91DB8800C0731B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -577,6 +583,249 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04B8D268B7C1D016CA50B8F4 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RealmShowcase-tvOS/Pods-RealmShowcase-tvOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0B28EEE969BD759B8842346A /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RealmShowcase-iOS/Pods-RealmShowcase-iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D0CB97FF3B50D3B1F51BA60 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RealmShowcase-watchOS Extension/Pods-RealmShowcase-watchOS Extension-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		495BE5E3F3748772E585B8BD /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6251D7FA40568D952B8CFAA6 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RealmShowcase-watchOS Extension/Pods-RealmShowcase-watchOS Extension-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B7D3E1A7F655EF2EED254B3 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7DD00CB8713A8D9B8177BA7E /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RealmShowcase-tvOS/Pods-RealmShowcase-tvOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F24F3D165C8C88A7158FC56 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RealmShowcase-OSX/Pods-RealmShowcase-OSX-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B491051B6A29FC929586E48D /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RealmShowcase-watchOS Extension/Pods-RealmShowcase-watchOS Extension-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2C7CB95198FF5EEF2099B01 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RealmShowcase-OSX/Pods-RealmShowcase-OSX-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D20C594E77ED5ECF9C5B0EDE /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RealmShowcase-tvOS/Pods-RealmShowcase-tvOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D27B0D7F65BEB918378CB3D7 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DF4EDF0ADE36BA6603CD2495 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E92E56CC87C55D5CEEC88C4C /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RealmShowcase-iOS/Pods-RealmShowcase-iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB3814112BCB51D589830772 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RealmShowcase-OSX/Pods-RealmShowcase-OSX-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD5B10FCAD3887E89BF9F7A1 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RealmShowcase-iOS/Pods-RealmShowcase-iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9C814A051C92DDB00020E4FA /* Sources */ = {
@@ -629,10 +878,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				9CEA360B1C93203400936192 /* ExtensionDelegate.swift in Sources */,
-				9C8C12661CAD4C1E00F793B5 /* Favorite.swift in Sources */,
-				9C8C12641CAD4C1E00F793B5 /* GitHubAPI.swift in Sources */,
-				9C8C12651CAD4C1E00F793B5 /* Repository.swift in Sources */,
-				9C8C12671CAD4C1E00F793B5 /* ImageWithURL.swift in Sources */,
+				9C61FB1C1C932AE300AC65D7 /* MasterInterfaceController.swift in Sources */,
+				9C9A15161C96D9C8003DEDAA /* RepoRowController.swift in Sources */,
+				9CEA361C1C9320B700936192 /* Favorite.swift in Sources */,
+				9CEA361A1C9320B700936192 /* GitHubAPI.swift in Sources */,
+				9CEA361B1C9320B700936192 /* Repository.swift in Sources */,
+				9C9A15181C96DEE9003DEDAA /* DetailInterfaceController.swift in Sources */,
+				9C8766101CAD3A2600A997E0 /* ImageWithURL.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -702,6 +954,7 @@
 /* Begin XCBuildConfiguration section */
 		9C814A161C92DDB00020E4FA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F05A1C4F8EAE5E49C702E0A4 /* Pods-RealmShowcase-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -717,6 +970,7 @@
 		};
 		9C814A171C92DDB00020E4FA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A34526B8071836E4221AA20 /* Pods-RealmShowcase-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -813,6 +1067,7 @@
 		};
 		9CD371951C91DB8800C0731B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8A1D46BF616C0907C09CD83 /* Pods-RealmShowcase-iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -828,6 +1083,7 @@
 		};
 		9CD371961C91DB8800C0731B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C766AC640FD8921ADDB47D9 /* Pods-RealmShowcase-iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -843,6 +1099,7 @@
 		};
 		9CD371A81C91DB9A00C0731B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2747A100FFD53948B9087447 /* Pods-RealmShowcase-OSX.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "-";
@@ -858,6 +1115,7 @@
 		};
 		9CD371A91C91DB9A00C0731B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF70190A78DE0BFB69CA2E6D /* Pods-RealmShowcase-OSX.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "-";
@@ -905,6 +1163,7 @@
 		};
 		9CEA36141C93203400936192 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93A507C8ACCC990223C4E25F /* Pods-RealmShowcase-watchOS Extension.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -923,6 +1182,7 @@
 		};
 		9CEA36151C93203400936192 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7332558E99983C55E03776D7 /* Pods-RealmShowcase-watchOS Extension.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_IDENTITY = "iPhone Developer";

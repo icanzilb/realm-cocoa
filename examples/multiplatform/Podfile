@@ -1,0 +1,21 @@
+use_frameworks!
+
+target 'RealmShowcase-OSX' do
+	platform :osx, '10.10'
+	pod 'RealmSwift'
+end
+
+target 'RealmShowcase-iOS' do
+	platform :ios, '8.0'
+	pod 'RealmSwift'
+end
+
+target 'RealmShowcase-tvOS' do
+    platform :tvos, '9.1'
+    pod 'RealmSwift'
+end
+
+target 'RealmShowcase-watchOS Extension' do
+    platform :watchos, '2.0'
+    pod 'RealmSwift'
+end
