@@ -119,3 +119,9 @@ A tvOS app that demonstrates how to use Realm to store data and display data fro
 ### PreloadedData
 
 A tvOS app that demonstrates how to use a Realm file included in your app bundle.
+
+## Multi-platform (Swift)
+
+In `examples/multiplatform` you will find a project containing a multiplatform example in Swift. The project demonstrates how to build a simple app with Realm across the four Apple platforms: iOS, OSX, tvOS and watchOS.
+
+Before opening the workspace install the required CocoaPods and then you can run the identical example app on different platforms by selecting each of the project targets.
