@@ -1,0 +1,6 @@
+framework module Pods_ReactKitTableView {
+  umbrella header "Pods-ReactKitTableView-umbrella.h"
+
+  export *
+  module * { export * }
+}
